@@ -1,2 +1,2 @@
 ## Universal with Material.
-Following commits of 11-18/19 any attempt to import MaterialModule.forRoot() results in error, Cannot redefine property:b
+After fixing externals: includeClientPackages to be surrounded by [], and removing angular2-meta references we are able to use Material again.  Remember UniversalModule must be loaded after MaterialModule in imports on node.module and browser.module 
