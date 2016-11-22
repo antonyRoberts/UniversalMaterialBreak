@@ -37,7 +37,7 @@
     "Mark Pieszak <mpieszak84@gmail.com>"
   ],
   "dependencies": {
-     "@angular/common": "~2.2.1",
+    "@angular/common": "~2.2.1",
     "@angular/compiler": "~2.2.1",
     "@angular/compiler-cli": "~2.2.1",
     "@angular/core": "~2.2.1",
@@ -67,7 +67,7 @@
     "preboot": "~4.5.2",
     "rxjs": "5.0.0-beta.12",
     "webfontloader": "^1.6.26",
-    "zone.js": "~0.6.26"
+    "zone.js": "0.7.1"
   },
   "devDependencies": {
     "@types/body-parser": "0.0.29",
